@@ -5,19 +5,16 @@
   user-select: none;
 }
 @font-face {
-	font-family: 'MyFont';
-	src: url('NotoSansJP-Regular.otf') format('opentype');
-
+  font-family: "MyFont";
+  src: url("NotoSansJP-Regular.otf") format("opentype");
 }
 @font-face {
-	font-family: 'MyFont2';
-	src: url('Renner_ 400 Book.ttf') format('truetype');
-
+  font-family: "MyFont2";
+  src: url("Renner_ 400 Book.ttf") format("truetype");
 }
 @font-face {
-	font-family: 'MyFont3';
-	src: url('Lato-Regular.ttf') format('truetype');
-
+  font-family: "MyFont3";
+  src: url("Lato-Regular.ttf") format("truetype");
 }
 /* .gaussfade-out{
   animation: rotation 2s ease 0s 1 alternate none running;
@@ -42,15 +39,15 @@ body {
   color: white;
   background-color: #0b2d49;
   overflow: hidden;
-	font-family: 'MyFont2','MyFont';
+  font-family: "MyFont2", "MyFont";
   background-image: url("../images/16-9.png");
-  background-position:center center;        
-  background-size: cover;           
-  width:100%;     
-  height:100vh;      
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 body::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   bottom: -5px;
@@ -73,13 +70,13 @@ input {
 /* .row{
   margin: 0 auto 30px;
 } */
-.col.right{
+.col.right {
   position: fixed;
   right: 10px;
   bottom: 20px;
   height: 25px;
 }
-.col.right .row{
+.col.right .row {
   margin: 0;
 }
 .power-button {
@@ -94,7 +91,7 @@ input {
   fill: white;
   transform: scale(0.95);
 }
-.input-field.col.s2.offset-s1{
+.input-field.col.s2.offset-s1 {
   position: fixed;
   width: 280px;
   left: 10px;
@@ -109,7 +106,7 @@ div#console {
 }
 div#console .terminal {
   overflow-y: scroll;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   font-size: 14pt;
   color: white;
   height: 30vh;

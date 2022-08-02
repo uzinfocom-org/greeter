@@ -6,14 +6,14 @@
   overflow: hidden;
   background-color: #e57373;
 
-  background: linear-gradient(180deg, #0b4c81 30%,#005498 70%);
+  background: linear-gradient(180deg, #0b4c81 30%, #005498 70%);
   background-image: url("../images/16-9.png");
 
   /* background-repeat:  no-repeat;                     */
-  background-position:center center;        
-  background-size: cover;           
-  width:100%;     
-  height:100vh;      
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 #splashscreen * {
   overflow: hidden;
@@ -28,9 +28,9 @@
   top: 0;
 }
 .SplashScreen-screen-img {
- /* nothing here right now */
+  /* nothing here right now */
 }
-.filter{
+.filter {
   filter: blur(4px) contrast(110%) brightness(80%);
 }
 .vignette {
