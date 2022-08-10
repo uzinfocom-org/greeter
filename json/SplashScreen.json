@@ -28,7 +28,7 @@
     ],
     "html": [
       {
-        "html": "<text style='display: none' class='active-appear'>任意のキーを押すとログインできます。</text>",
+        "html": "<text style='display: none' class='active-appear'>Kirish uchun istalgan tugmani bosing.</text>",
         "css": {
           "margin-top": "5vh",
           "font-weight": "200",
